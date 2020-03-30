@@ -24,5 +24,4 @@ def printer(array)
   batch_badge_creator(array).each do |item|
     puts item
   end
-
 end

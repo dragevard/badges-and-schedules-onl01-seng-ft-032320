@@ -20,7 +20,9 @@ def assign_rooms(array)
   message
 end
 
-def printer(result)
-  
-  puts batch_badge_creator(result)
+def printer(array)
+  batch_badge_creator(array).each do |array|
+    puts #{array}
+  end
+
 end
